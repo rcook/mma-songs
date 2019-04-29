@@ -1,0 +1,31 @@
+// Sample song
+
+Tempo 80
+Groove Metronome2-4
+
+z * 2
+
+Groove W-RockMainA
+Repeat
+Volume mp
+Cresc mf 4
+
+1 Dm
+2 Gm
+3 Dm
+4 Dm
+5 Gm
+6 Gm
+7 Dm
+8 Dm
+9 A
+10 Bb Bb A A
+
+Decresc p 4
+
+11 Dm
+12 A
+
+RepeatEnd
+
+13 Dm z! / /

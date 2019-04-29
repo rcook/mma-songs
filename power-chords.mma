@@ -1,0 +1,12 @@
+// Sample song
+
+Drum Define S2 1 0 100; \
+  2 0 80; \
+  3 0 100; \
+  4 0 80
+
+Tempo 120
+Groove W-RockMainA
+
+1 A5
+2 A5
