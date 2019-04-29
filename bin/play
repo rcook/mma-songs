@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+
+this_dir=$(cd $(dirname $0); pwd -P)
+default_mma_dir=$(dirname $(dirname $this_dir))
+mma_dir=${MMA_DIR:-$default_mma_dir}
+
+python $mma_dir/mma.py -P $*
