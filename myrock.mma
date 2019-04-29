@@ -1,0 +1,62 @@
+// From tutorial at https://www.mellowood.ca/mma/online-docs/tut/node5.html
+
+SeqClear 
+  SeqSize 1 
+  Timesig 4 4 
+   
+Begin Drum Define 
+  D1 1 8 90 ; 2.5 8 90 ; 4 8 90 
+  S1 2 8 90 ; 4 8 90 
+  CH1 1 8 90 
+  C1 CH1 * 8 
+End 
+   
+Begin Bass Define 
+  B1 1 4+8 1 90 ; 2.5 8 1 90 ; 3 8 1 90 ; 3.5 4 1 90 ; 4.5 8 1 90 
+  L1 1 2+4 1 90 
+End 
+   
+Begin Chord Define 
+  C1 1 2+4 80; 4 4 80 
+End 
+   
+Begin Drum-Kick 
+  Tone KickDrum1 
+  Sequence D1 
+End 
+   
+Begin Drum-Snare 
+  Tone SnareDrum1 
+  Sequence S1 
+End 
+   
+Begin Drum-HH 
+  Tone ClosedHiHat 
+  Sequence C1 
+End 
+   
+Begin Bass-Simple 
+  Voice AcousticBass 
+  Sequence B1 
+End 
+   
+Begin Bass-LeftHandPiano 
+  Voice Piano1 
+  Sequence L1 
+  Octave 3 // This a new command, but simple to understand 
+End 
+   
+Begin Chord-RightHandPiano 
+  Voice Piano1 
+  Sequence C1 
+End 
+   
+DefGroove Myrock1
+
+////////
+
+Groove Myrock1 
+Tempo 120 
+
+1 A5
+2 A5
