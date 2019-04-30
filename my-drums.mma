@@ -3,9 +3,9 @@ SeqSize 1
 TimeSig 4 4 
    
 Begin Drum Define 
-  D1 1 8 90 ; 2.5 8 90 ; 4 8 90 
-  S1 2 8 90 ; 4 8 90 
-  CH1 1 8 90 
+  D1 1 0 90 ; 2.5 0 90 ; 4 0 90 
+  S1 2 0 90 ; 4 0 90 
+  CH1 1 0 90 
   C1 CH1 * 8 
 End 
    
