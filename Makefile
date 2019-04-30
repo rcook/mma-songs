@@ -1,4 +1,5 @@
 OBJS := \
+  fancy-drums.mid \
   ive-got-you-under-my-skin.mid \
   myrock.mid \
   power-chords.mid \
@@ -7,7 +8,7 @@ OBJS := \
 all: $(OBJS)
 
 %.mid: %.mma
-	bin/mma $<
+	mma $<
 
 clean:
 	rm -f $(OBJS)
