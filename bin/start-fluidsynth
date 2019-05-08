@@ -1,0 +1,1 @@
+fluidsynth -a alsa -m alsa_seq -l -i ~/SoundFonts/mustheory2.sf2 fancy-drums.mid
