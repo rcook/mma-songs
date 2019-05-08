@@ -3,11 +3,9 @@ seqsize 1
 timesig 4 4
 
 begin drum define
-  D1 1 16 127 ; 1.25 16 110 ; 1.5 16 105 ; 1.75 16 100 ; 2.5 16 127 ; 4 16 127 ; 4.75 16 100
-  S1 2 8 90 ; 4 8 80
-  CH1 1 8 90
-  C1 CH1 * 8
-  H1 4.75 16 100
+  D1 1 16 127 ; 1.25 16 90 ; 1.5 16 85 ; 1.75 16 80 ; 2.5 16 127 ; 4 16 127 ; 4.75 16 85
+  S1 2 8 90 ; 4 8 70
+  C1 1 8 100; 1.5 8 70 ; 2 8 75 ; 2.5 8 80 ; 3 8 85 ; 3.5 8 80 ; 4 8 75 ; 4.5 8 80
 end
 
 begin Drum-Kick
@@ -25,14 +23,9 @@ begin Drum-HH
   sequence C1
 end
 
-begin Drum-OHH
-  tone OpenHiHat
-  sequence H1
-end
-
 defgroove MyGroove 
 
 groove MyGroove
-tempo 120
+tempo 110
 
-1 A5 * 4
+1 A5 * 100
