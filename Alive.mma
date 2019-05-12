@@ -1,0 +1,27 @@
+// Alive
+// By Eddie Vedder and Stone Gossard
+
+Tempo 80
+Groove BasicRock
+Lyric Off
+
+// Intro
+/*
+TimeSig 4/4
+A Asus4@2.5 * 6
+TimeSig 2/4
+F5 z@2 C@2.25
+TimeSig 4/4
+C
+*/
+
+// Verse
+TimeSig 4/4
+A Asus4@2.5 [Son, she said]
+A Asus4@2.5 [Have I got a little story for you]
+A Asus4@2.5 [What you thought was your daddy]
+A Asus4@2.5 [Was nothing but a]
+A Asus4@2.5 [While you were sitting]
+A Asus4@2.5 [Home alone at age thirteen]
+A Asus4@2.5 [Your real daddy was dying]
+Asus4 / F5 C [Sorry you didn't see him]
